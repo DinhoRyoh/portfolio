@@ -1,0 +1,509 @@
+/****************************
+   Inclusion et CSS special
+****************************/
+@font-face {
+    font-family: munro;
+    src: url('/CSS/munro/Munro.ttf');
+}
+#home{
+      font-family: munro;
+      background-image: url('image/gif2.gif');
+      background-size: cover;
+          background-attachment: fixed;
+}
+#formation{
+      font-family: munro;
+      background-image: url('image/gif3.gif');
+      background-size: cover;
+          background-attachment: fixed;
+}
+#competence{
+      font-family: munro;
+      background-image: url('image/gif4.gif');
+      background-size: cover;
+      background-position: right;
+          background-attachment: fixed;
+}
+#projet{
+      font-family: munro;
+      background-image: url('image/gif5.gif');
+      background-size:  100% 100vh;
+      background-position: top;
+      background-attachment: fixed;
+}
+#contact{
+      font-family: munro;
+      background-image: url('image/img2.jpg');
+      background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+#notFound{
+      font-family: munro;
+      background-image: url('image/gif7.gif');
+      background-size: cover;
+      background-attachment: fixed;
+}
+ul,ol{
+  list-style: none;
+}
+section#icon-top{
+  display: none;
+}
+ul#socialLinks{
+  margin-right: 80px;
+}
+ul#socialLinks li {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    color: orange !important;
+    margin-bottom: 10px;
+}
+ul#socialLinks li a{
+  color: #af6652;
+}
+ul#socialLinks li a:hover{
+  color: yellow;
+  border-radius: 15px;
+  text-decoration: none;
+}
+ul#menu{
+  text-align: center;
+}
+ul#menu li {
+    display: inline-block;
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color:  rgba(255, 255, 106, 0.2);
+    width:25%;
+}
+ul#menu li a{
+  color: yellow;
+}
+ul#menu li a:hover{
+  color: red;
+  border-radius: 15px;
+  text-decoration: none;
+}
+ul#menu li a:active{
+  color: yellow;
+  background-color:rgba(184, 46, 44, 0.2);
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+/****************************
+            Titre
+****************************/
+.container-fluid {
+
+    color: white;
+    font-size: 20px;
+    height: 100vh;
+  }
+.container-fluid h1{
+  margin-top:50px;
+  text-align: center;
+  color:#af6652;
+  text-shadow: 2px 2px 5px black;
+  font-size: 70px;
+}
+#formation h1{
+  margin-top:50px;
+  text-align: center;
+  color:yellow;
+  text-shadow: 2px 2px 5px black;
+  font-size: 70px;
+}
+#projet h1{
+  margin-top:50px;
+  text-align: center;
+  color:#c4c2c2;
+  text-shadow: 2px 2px 5px black;
+  font-size: 70px;
+}
+#contact h1{
+  margin-top:50px;
+  text-align: center;
+  color:#c4c2c2;
+  text-shadow: 2px 2px 5px black;
+  font-size: 70px;
+}
+#notFound h1{
+  margin-top:50px;
+  text-align: center;
+  color:darkgreen;
+  text-shadow: 2px 2px 5px black;
+  font-size: 70px;
+}
+#notFound p{
+  background:-webkit-linear-gradient(#5EA642, #FF7D54);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.container-fluid .row .col-md-7{
+  margin-left: 15px;
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px 5px;
+}
+.container-fluid .row .col-md-7 h2{
+  padding: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+}
+.map{
+  margin-left: 20px;
+  margin-top: 60px;
+  color: black;
+  width:430px;
+
+  filter: invert();
+}
+.futurProjet{
+  margin-left: 20px;
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px 5px;
+  color: white;
+  width:430px;
+}
+.futurProjet ul{
+  list-style: disc;
+  color:green;
+}
+.futurProjet ul li span{
+color:lightgreen;
+}
+.futurProjet .wrapperProfil{
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+.info{
+  background-color: rgba(255, 255,255, 0.7);
+    border-radius: 5px 5px;
+}
+.info p{
+      margin-left:15px;
+}
+.info span{
+  margin-left: 50px;
+}
+.space{
+  margin-top: 55px;
+}
+.space2{
+  margin-top: 25px;
+}
+/****************************
+            top/footer
+****************************/
+.top{
+  background-color: rgba(0,0,0,0.8);
+  border: 2px outset orange;
+}
+footer{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: yellow;
+  background-color: black;
+  border: 2px inset orange;
+}
+footer p, a{
+  padding-top: 5px;
+}
+footer p{
+  margin-left: 30px;
+}
+footer a{
+  color: #af6652;
+  margin-right: 30px;
+}
+footer a:hover{
+  text-decoration: none;
+  color: yellow;
+}
+/****************************
+        formulaire
+****************************/
+.contact{
+  color: white;
+}
+#form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact input,.contact textarea{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid yellow;
+  border-radius: 5px;
+  width: 500px;
+    font-weight: lighter;
+}
+.contact button{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid yellow;
+  border-radius: 5px;
+  width: 500px;
+}
+.contact input:focus,.contact textarea:focus{
+  border: 2px solid orange;
+}
+.contact input:active,.contact textarea:active{
+  border: 2px solid red;
+}
+.contact button:focus{
+  border: 2px solid red;
+}
+
+#captcha{
+  width:220px;
+  height:50px;
+}
+
+/****************************
+      skills diagrams
+****************************/
+.wrapper{
+  margin-left: 40px;
+}
+.percentage-bar {
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    display: block;
+    height: 35px;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    -webkit-transition-property: width, background-color;
+    width: 70%;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 120px;
+}
+
+.title span {
+    background: rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.bar {
+    height: 35px;
+    width: 0px;
+}
+
+.percent {
+    color: white;
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+
+section.bar1 div.title { background: #c9a024; }
+section.bar1 div.bar { background: #F3C128; }
+
+section.bar2 div.title { background: #c93e3e; }
+section.bar2 div.bar { background: #FF5353; }
+
+section.bar3 div.title { background: #15a9c4; }
+section.bar3 div.bar { background:  #1CDCFF; }
+
+section.bar4 div.title { background: #9975c4; }
+section.bar4 div.bar { background: #C799FF; }
+
+section.bar5 div.title { background: #60a33c; }
+section.bar5 div.bar { background: #7CD14E; }
+
+section.bar6 div.title { background: #4c4747; }
+section.bar6 div.bar { background: #726b6b; }
+
+section.bar7 div.title { background: #2d5089; }
+section.bar7 div.bar { background: #3e6ebc; }
+
+section.bar8 div.title { background: #204223; }
+section.bar8 div.bar { background: #346839; }
+
+  /****************************
+         projets tabbed
+  ****************************/
+  #min-nav{
+  display: none;
+  }
+  .nav-tabs{
+    border-bottom: 1px solid yellow;
+  }
+
+  .nav-tabs li a{
+    color: orange;
+  }
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    color: yellow !important;
+  }
+#liMenu a:hover{
+  background-color: none;
+  color: red;
+}
+
+#tabbed{
+  font-size: 15px;
+  border-bottom: 1px solid green;
+}
+
+#tabbed li a{
+  color: lightgreen;
+}
+#tabbed>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: green !important;
+}
+/****************************
+       formation
+****************************/
+h3 a{
+  text-decoration: none;
+}
+h3 a:hover{
+  color:black!important;
+  text-decoration: none;
+}
+/****************************
+       responsive
+****************************/
+.tab-content img{
+  width:350px;
+  height: auto;
+}
+@media screen and (max-width: 1264px) {
+  .tab-content img{
+    width:250px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 560px) {
+section#icon-top{
+display: block;
+}
+section#icon-top ul li{
+margin-right: 30px;
+}
+section#banner-top{
+display: none;
+}
+}
+@media screen and (max-width: 660px) {
+.nav-tabs{
+display: none;
+}
+#tabbed{
+  display: block;
+}
+#min-nav{
+display: block;
+}
+.container-fluid .row .col-md-7{
+  margin-left: 0px;
+  margin-top: 60px;
+}
+.map{
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.futurProjet{
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.contact input,.contact textarea{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid yellow;
+  border-radius: 5px;
+  width: 250px;
+    font-weight: lighter;
+}
+.contact button{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid yellow;
+  border-radius: 5px;
+  width: 250px;
+}
+}
+/****************************
+       404
+****************************/
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+#body404{
+  margin:0;
+  background: #000 url('image/404-2.png') center no-repeat;
+  height:855px;
+  text-transform:uppercase;
+}
+#body404 h1,#body404 h2,#body404 h3{
+  font-family: munro;
+  margin: 0 auto 0 auto;
+  margin-top: -15px;
+  text-align:left;
+  position:relative;
+  text-shadow: 2px 2px 0px blue;
+  color:#fff;
+  font-weight:400;
+}
+#body404 h1{
+  font-size:1.7em;
+  width:260px;
+  top:148px;
+  line-height:60px;
+  padding-left:292px;
+}
+#body404 h2{
+  top:26px;
+  width:150px;
+  font-size:1.6em;
+  z-index:1;
+}
+#body404 h2 a{
+  color:#fff;
+  text-decoration:none;
+  margin-left:375px;
+  width:200px;
+}
+#body404  h2 a{
+    color:yellow;
+  }
+#body404  h2 a:hover{
+    color:green;
+  }
+#body404 h3{
+  width:400px;
+  padding-right:300px;
+  margin-top: 0px;
+  font-size:1.5em;
+}
