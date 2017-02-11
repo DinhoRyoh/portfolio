@@ -20,10 +20,10 @@
     </ul>
     <h2>Mes compétences</h2>
     <div class="wrapper">
-      <section class="percentage-bar bar1" data-percent="35%">
+      <section class="percentage-bar bar1" data-percent="40%">
         <div class="title"><span>Javascript</span></div>
         <div class="bar"></div>
-        <div class="percent">35%</div>
+        <div class="percent">40%</div>
       </section>
       <section class="percentage-bar bar2" data-percent="50%">
         <div class="title"><span>PHP</span></div>
@@ -45,20 +45,25 @@
         <div class="bar"></div>
         <div class="percent">55%</div>
       </section>
-      <section class="percentage-bar bar6" data-percent="30%">
+      <section class="percentage-bar bar6" data-percent="35%">
         <div class="title"><span>Wordpress</span></div>
         <div class="bar"></div>
-        <div class="percent">30%</div>
+        <div class="percent">35%</div>
       </section>
-      <section class="percentage-bar bar7" data-percent="50%">
+      <section class="percentage-bar bar7" data-percent="70%">
         <div class="title"><span>GIT</span></div>
         <div class="bar"></div>
-        <div class="percent">50%</div>
+        <div class="percent">70%</div>
       </section>
-      <section class="percentage-bar bar8" data-percent="35%">
+      <section class="percentage-bar bar8" data-percent="45%">
         <div class="title"><span>Laravel</span></div>
         <div class="bar"></div>
-        <div class="percent">35%</div>
+        <div class="percent">45%</div>
+      </section>
+      <section class="percentage-bar bar9" data-percent="40%">
+        <div class="title"><span>Electron</span></div>
+        <div class="bar"></div>
+        <div class="percent">40%</div>
       </section>
     </div>
     <p>Durant la formation à l'IT-Akademy, j'ai acquéri plusieurs compétences dont plusieurs cités au dessus.<br>La formation n'a pas encore abouti, il y a donc une forte chance que j'ajoute d'autres compétences au fur et à mesure.</p>
@@ -76,8 +81,6 @@
        <p>HP : 547</p>
        <p>PM : 246</p>
      </div>
-
    </div>
-
  </div>
 @endsection

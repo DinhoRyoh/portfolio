@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="icon" type="image/png" href="/css/image/favicon.png"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -26,10 +26,10 @@
         </section>
         <section id="icon-top">
             <ul id="socialLinks">
-                <li><a href="https://fr.linkedin.com/in/le-hoang-dinh-nguyen-08295556" target="_blank" title="LinkedIn" class="LinkedIn"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-                <li><a href="https://github.com/DinhoRyoh" target="_blank" title="Github" class="Github"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
-                <li><a href="http://www.viadeo.com/p/0021s3emq4e6iyzm" target="_blank" title="Viadeo" class="viadeo" target="_blank"><i class="fa fa-viadeo-square fa-2x" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100008295253255" target="_blank" title="Facebook" class="facebook" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="https://fr.linkedin.com/in/le-hoang-dinh-nguyen-08295556" target="_blank" title="LinkedIn" class="LinkedIn"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/DinhoRyoh" target="_blank" title="Github" class="Github"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                <li><a href="http://www.viadeo.com/p/0021s3emq4e6iyzm" target="_blank" title="Viadeo" class="viadeo" target="_blank"><i class="fa fa-viadeo-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100008295253255" target="_blank" title="Facebook" class="facebook" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
             </ul>
         </section>
       </div>
@@ -37,9 +37,7 @@
         <h1>@yield('message')</h1>
       </div>
       <div class="row">
-
         @yield('content')
-
       </div>
     </div>
 </body>

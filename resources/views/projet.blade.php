@@ -22,6 +22,7 @@
       <li class="active"><a data-toggle="tab" href="#HOMEPROJECT">HOME PROJECT</a></li>
       <li><a data-toggle="tab" href="#GAME">GAME</a></li>
       <li><a data-toggle="tab" href="#SITE">SITE</a></li>
+      <li><a data-toggle="tab" href="#ELECTRON">ELECTRON</a></li>
     </ul>
 
     <div class="tab-content">
@@ -58,6 +59,16 @@
           <img src="{{asset('css/image/capture3portfolio.png')}}" alt="capture3">
           <img src="{{asset('css/image/capture4portfolio.png')}}" alt="capture4">
           <img src="{{asset('css/image/capture5portfolio.png')}}" alt="capturedarklink">
+      </div>
+      <div id="ELECTRON" class="tab-pane fade">
+          <p><br><br>La formation CARED nous à encore donné l'occasion de travailler sur un projet de notre choix.<br><br>La contrainte imposée était de travailler sur Electron.<br>C'est un outil très sympa qui m'à permis de faire ce travail.<br>J'ai éssayé de faire un jeu portant sur l'univers de <em style="color: yellow">League of Legends</em> en version RPG.<br>Malheureusement, par manque de temps <em style="color: green">(5 jours)</em>, je n'ai pas pu finir ce projet.</p>
+          <br><br>
+          <img style="width:100%" src="{{asset('css/image/electron-start.gif')}}" alt="title">
+          <img style="width:100%" src="{{asset('css/image/electron-menu.png')}}" alt="menu">
+          <img style="width:100%" src="{{asset('css/image/electron-options.png')}}" alt="options">
+          <img style="width:100%" src="{{asset('css/image/electron-pick.gif')}}" alt="pick">
+          <img style="width:100%" src="{{asset('css/image/electron-storytale.gif')}}" alt="storyline">
+          <img style="width:100%" src="{{asset('css/image/electron-exit.png')}}" alt="exit">
       </div>
     </div>
  </div>

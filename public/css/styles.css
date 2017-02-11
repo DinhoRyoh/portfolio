@@ -9,20 +9,20 @@
       font-family: munro;
       background-image: url('image/gif2.gif');
       background-size: cover;
-          background-attachment: fixed;
+      background-attachment: fixed;
 }
 #formation{
       font-family: munro;
       background-image: url('image/gif3.gif');
       background-size: cover;
-          background-attachment: fixed;
+      background-attachment: fixed;
 }
 #competence{
       font-family: munro;
       background-image: url('image/gif4.gif');
       background-size: cover;
       background-position: right;
-          background-attachment: fixed;
+      background-attachment: fixed;
 }
 #projet{
       font-family: munro;
@@ -35,8 +35,8 @@
       font-family: munro;
       background-image: url('image/img2.jpg');
       background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
+      background-position: bottom;
+      background-attachment: fixed;
 }
 #notFound{
       font-family: munro;
@@ -54,11 +54,11 @@ ul#socialLinks{
   margin-right: 80px;
 }
 ul#socialLinks li {
-    display: inline-block;
-    float: left;
-    margin-right: 20px;
-    color: orange !important;
-    margin-bottom: 10px;
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  color: orange !important;
+  margin-bottom: 10px;
 }
 ul#socialLinks li a{
   color: #af6652;
@@ -72,12 +72,12 @@ ul#menu{
   text-align: center;
 }
 ul#menu li {
-    display: inline-block;
-    padding: 15px;
-    border: 2px solid red;
-    border-radius: 10px;
-    background-color:  rgba(255, 255, 106, 0.2);
-    width:25%;
+  display: inline-block;
+  padding: 15px;
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color:  rgba(255, 255, 106, 0.2);
+  width:25%;
 }
 ul#menu li a{
   color: yellow;
@@ -98,10 +98,9 @@ ul#menu li a:active{
             Titre
 ****************************/
 .container-fluid {
-
-    color: white;
-    font-size: 20px;
-    height: 100vh;
+  color: white;
+  font-size: 20px;
+  height: 100vh;
   }
 .container-fluid h1{
   margin-top:50px;
@@ -140,8 +139,8 @@ ul#menu li a:active{
 }
 #notFound p{
   background:-webkit-linear-gradient(#5EA642, #FF7D54);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .container-fluid .row .col-md-7{
   margin-left: 15px;
@@ -155,11 +154,9 @@ ul#menu li a:active{
   font-size: 30px;
 }
 .map{
-  margin-left: 20px;
   margin-top: 60px;
   color: black;
   width:430px;
-
   filter: invert();
 }
 .futurProjet{
@@ -184,10 +181,10 @@ color:lightgreen;
 }
 .info{
   background-color: rgba(255, 255,255, 0.7);
-    border-radius: 5px 5px;
+  border-radius: 5px 5px;
 }
 .info p{
-      margin-left:15px;
+  margin-left:15px;
 }
 .info span{
   margin-left: 50px;
@@ -245,7 +242,7 @@ footer a:hover{
   border: 2px solid yellow;
   border-radius: 5px;
   width: 500px;
-    font-weight: lighter;
+  font-weight: lighter;
 }
 .contact button{
   background-color: rgba(0, 0, 0, 0.5);
@@ -275,56 +272,56 @@ footer a:hover{
   margin-left: 40px;
 }
 .percentage-bar {
-    background: rgba(0,0,0,0.5);
-    border-radius: 10px;
-    display: block;
-    height: 35px;
-    margin-bottom: 5px;
-    position: relative;
-    transition: 0.4s linear;
-    -moz-transition: 0.4s linear;
-    -ms-transition: 0.4s linear;
-    -o-transition: 0.4s linear;
-    -webkit-transition: 0.4s linear;
-    transition-property: width, background-color;
-    -moz-transition-property: width, background-color;
-    -ms-transition-property: width, background-color;
-    -o-transition-property: width, background-color;
-    -webkit-transition-property: width, background-color;
-    width: 70%;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  display: block;
+  height: 35px;
+  margin-bottom: 5px;
+  position: relative;
+  transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  -webkit-transition: 0.4s linear;
+  transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -ms-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  -webkit-transition-property: width, background-color;
+  width: 100%;
 }
 
 .title {
-    color: #ffffff;
-    font-size: 14px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 120px;
+  color: #ffffff;
+  font-size: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
 }
 
 .title span {
-    background: rgba(0, 0, 0, 0.1);
-    display: block;
-    height: 35px;
-    line-height: 35px;
-    padding: 0 20px;
-    text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .bar {
-    height: 35px;
-    width: 0px;
+  height: 35px;
+  width: 0px;
 }
 
 .percent {
-    color: white;
-    font-size: 20px;
-    height: 35px;
-    line-height: 35px;
-    position: absolute;
-    right: 10px;
-    top: 0;
+  color: white;
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+  position: absolute;
+  right: 10px;
+  top: 0;
 }
 
 
@@ -352,23 +349,25 @@ section.bar7 div.bar { background: #3e6ebc; }
 section.bar8 div.title { background: #204223; }
 section.bar8 div.bar { background: #346839; }
 
+section.bar9 div.title { background: #a55e3d; }
+section.bar9 div.bar { background: #c46f48; }
   /****************************
          projets tabbed
   ****************************/
-  #min-nav{
+#min-nav{
   display: none;
-  }
-  .nav-tabs{
-    border-bottom: 1px solid yellow;
-  }
+}
+.nav-tabs{
+  border-bottom: 1px solid yellow;
+}
 
-  .nav-tabs li a{
-    color: orange;
-  }
-  .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
-    background-color: rgba(255, 255, 255, 0.3) !important;
-    color: yellow !important;
-  }
+.nav-tabs li a{
+  color: orange;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  color: yellow !important;
+}
 #liMenu a:hover{
   background-color: none;
   color: red;
@@ -410,51 +409,57 @@ h3 a:hover{
   }
 }
 @media screen and (max-width: 560px) {
-section#icon-top{
-display: block;
-}
-section#icon-top ul li{
-margin-right: 30px;
-}
-section#banner-top{
-display: none;
-}
+  section#icon-top{
+  display: block;
+  }
+  section#icon-top ul li{
+    margin-right: 30px;
+  }
+  section#banner-top{
+    display: none;
+  }
 }
 @media screen and (max-width: 660px) {
-.nav-tabs{
-display: none;
-}
-#tabbed{
-  display: block;
-}
-#min-nav{
-display: block;
-}
-.container-fluid .row .col-md-7{
-  margin-left: 0px;
-  margin-top: 60px;
-}
-.map{
-  margin-left: 0px;
-  margin-top: 20px;
-}
-.futurProjet{
-  margin-left: 0px;
-  margin-top: 20px;
-}
-.contact input,.contact textarea{
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid yellow;
-  border-radius: 5px;
-  width: 250px;
+  .nav-tabs{
+    display: none;
+  }
+  #tabbed{
+    display: block;
+  }
+  #min-nav{
+    display: block;
+  }
+  .container-fluid .row .col-md-7{
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  .info p{
+    margin-left:0px;
+  }
+  .info span{
+    margin-left: 25px;
+  }
+  .futurProjet{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .contact input,.contact textarea{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid yellow;
+    border-radius: 5px;
+    width: 250px;
     font-weight: lighter;
-}
-.contact button{
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid yellow;
-  border-radius: 5px;
-  width: 250px;
-}
+  }
+  .contact button{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid yellow;
+    border-radius: 5px;
+    width: 250px;
+  }
+  .futurProjet{
+    margin-left: 0px;
+    width: 365px;
+  }
 }
 /****************************
        404
