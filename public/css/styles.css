@@ -157,7 +157,7 @@ ul#menu li a:active{
   margin-top: 60px;
   color: black;
   width:430px;
-  filter: invert();
+  filter: invert(100%);
 }
 .futurProjet{
   margin-left: 20px;
@@ -392,7 +392,7 @@ h3 a{
   text-decoration: none;
 }
 h3 a:hover{
-  color:black!important;
+  color:yellow!important;
   text-decoration: none;
 }
 /****************************

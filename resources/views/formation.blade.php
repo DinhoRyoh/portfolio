@@ -19,8 +19,10 @@
       <li ><a href="/contact"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
     </ul>
     <h2>Mes Formations</h2>
+    <h3 ><a style="color:#3498db" href="http://www.it-akademy.fr/presentation-it-akademy-lyon" target="_blank" title="IT Akademy">It-Akademy : déveploppeur Full Stack</a></h3>
+    <p>Formation alternante en cours à Villeurbanne</p>
     <h3 ><a style="color:#3ebc53" href="http://www.it-akademy.fr/presentation-it-akademy-lyon" target="_blank" title="IT Akademy">It-Akademy CARED: déveploppeur web et mobile</a></h3>
-    <p>Formation en cours à Villeurbanne, durant la formation j'ai fais quelques projets,
+    <p>Certification obtenue à Villeurbanne, durant la formation j'ai fais quelques projets,
       je suis fier de vous les présenter : <a href="/projet">ici</a></p>
     <h3 ><a style="color:#bcb43e" href="http://iut.univ-lyon1.fr/presentation/" target="_blank" title="DUT Infomartique">DUT informatique</a></h3>
     <p>Diplôme obtenu à Lyon 1, cette formation m'a appri à réaliser,
